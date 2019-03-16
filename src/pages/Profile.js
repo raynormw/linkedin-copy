@@ -19,10 +19,15 @@ class Profile extends Component {
             Learn React
           </a>
           <br/>
-          <button type="button" className="btn btn-primary">Primary</button><br/><br/>
+          <button type="button" className="btn btn-primary">
+            <i className="fa fa-address-book mr-2"></i>
+            Primary
+          </button>
+          <br/><br/>
           <button type="button" className="btn btn-warning rounded-0">Warning</button><br/><br/>
           <button type="button" className="btn btn-success">Success</button><br/><br/>
           <BaseButton to="/" type="button" className="btn btn-outline-primary">
+            <i className="fa fa-address-book mr-2"></i>
             Go to Home
           </BaseButton>
         </header>

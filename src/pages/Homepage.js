@@ -25,9 +25,14 @@ class Homepage extends Component {
             Primary
           </BaseButton>
           <br/><br/>
-          <button type="button" className="btn btn-warning rounded-0">Warning</button><br/><br/>
+          <button type="button" className="btn btn-warning rounded-0">
+            <i className="fa fa-times"></i>
+            Warning
+          </button>
+          <br/><br/>
           <button type="button" className="btn btn-success">Success</button><br/><br/>
           <BaseButton to="/profile" type="button" className="btn btn-outline-primary">
+            <i className="fa fa-times mr-2"></i>
             Go to Profile
           </BaseButton>
         </div>
