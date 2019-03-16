@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import BaseButton from 'components/Common/BaseButton';
+
 class Profile extends Component {
   render() {
     return (
@@ -20,7 +22,9 @@ class Profile extends Component {
           <button type="button" className="btn btn-primary">Primary</button><br/><br/>
           <button type="button" className="btn btn-warning rounded-0">Warning</button><br/><br/>
           <button type="button" className="btn btn-success">Success</button><br/><br/>
-          <button type="button" className="btn btn-outline-primary">Outlined Primary</button>
+          <BaseButton to="/" type="button" className="btn btn-outline-primary">
+            Go to Home
+          </BaseButton>
         </header>
       </div>
     );
