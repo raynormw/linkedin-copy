@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Homepage from './pages/Homepage';
-import Profile from './pages/Profile';
-import NoMatch from './pages/NoMatch';
+import Homepage from 'pages/Homepage';
+import Profile from 'pages/Profile';
+import NoMatch from 'pages/NoMatch';
 
 const App = () => {
   return (

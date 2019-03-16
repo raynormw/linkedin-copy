@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
-import BaseButton from '../components/Common/BaseButton';
+import BaseButton from 'components/Common/BaseButton';
 
 class Homepage extends Component {
   render() {
