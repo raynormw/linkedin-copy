@@ -17,7 +17,7 @@ class App extends Component {
             Learn React
           </a>
           <button type="button" className="btn btn-primary">Primary</button>
-          <button type="button" className="btn btn-warning">Warning</button>
+          <button type="button" className="btn btn-warning rounded-0">Warning</button>
           <button type="button" className="btn btn-success">Success</button>
           <button type="button" className="btn btn-outline-primary">Outlined Primary</button>
         </header>
