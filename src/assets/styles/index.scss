@@ -1,1 +1,15 @@
 @import 'custom.scss';
+@import 'variable.scss';
+
+body {
+  background-color: $bg-color;
+}
+
+.base-header {
+  background-color: $header-bg;
+  color: #c7d1d8;
+}
+
+.base-content {
+  margin: 4.5em;
+}
