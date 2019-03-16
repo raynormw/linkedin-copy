@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+import BaseHeader from 'components/Common/BaseHeader';
 import BaseButton from 'components/Common/BaseButton';
 
 class Profile extends Component {
   render() {
     return (
       <div className="App">
+        <BaseHeader />
         <header className="App-header">
           <p>
             This is Profile
