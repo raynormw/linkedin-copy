@@ -29,6 +29,20 @@ body {
       }
     }
   }
+
+  .nav-work {
+    border-left: 1px solid #5c6f7c;
+  }
+
+  .nav-premi {
+    width: 100px;
+    margin-top: 4px;
+
+    a {
+      font-size: 12px;
+      color: #dccea4;
+    }
+  }
 }
 
 .base-content {

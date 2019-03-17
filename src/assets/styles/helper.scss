@@ -1,4 +1,4 @@
-$lineHeight: (8 8, 16 16, 32 32, 64 64);
+$lineHeight: (8 8, 12 12, 16 16, 32 32, 64 64);
 
 @each $var in $lineHeight {
   .lh-#{nth($var, 1)} {

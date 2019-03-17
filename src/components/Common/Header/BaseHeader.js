@@ -6,11 +6,11 @@ import NavItem from 'components/Common/Header/NavItem';
 class BaseHeader extends Component {
   state = {
     items: [
-      { text: "Home", link: "/", className: "fa fa-home fa-2x", linkClass: "nav-url-active"},
-      { text: "My Network", link: "/", className: "fa fa-home fa-2x", linkClass: "nav-url"},
-      { text: "Jobs", link: "/", className: "fa fa-home fa-2x", linkClass: "nav-url"},
-      { text: "Messaging", link: "/", className: "fa fa-home fa-2x", linkClass: "nav-url"},
-      { text: "Notifications", link: "/", className: "fa fa-home fa-2x", linkClass: "nav-url"},
+      { text: "Home", link: "/", className: "fa fa-home fa-lg", linkClass: "nav-url-active"},
+      { text: "My Network", link: "/", className: "fa fa-users fa-lg", linkClass: "nav-url"},
+      { text: "Jobs", link: "/", className: "fa fa-briefcase fa-lg", linkClass: "nav-url"},
+      { text: "Messaging", link: "/", className: "fa fa-comments-o fa-lg", linkClass: "nav-url"},
+      { text: "Notifications", link: "/", className: "fa fa-bell fa-lg", linkClass: "nav-url"},
     ]
   }
 
@@ -42,23 +42,26 @@ class BaseHeader extends Component {
         </form>
         <ul className="nav mr-2">
           {items}
-          <li className="nav-item text-center lh-8">
-            <BaseButton to="/" type="button" className="nav-url">
-              <i className="fa fa-home fa-2x" aria-hidden="true"></i>
-              <p className="mb-0"><small>Navitestes</small></p>
+          <li className="nav-item text-center lh-16 pt-1">
+            <BaseButton to="/profile" type="button" className="nav-url">
+              <i className="fa fa-circle fa-lg" aria-hidden="true"></i>
+              <p className="mb-0">
+                <small>Me</small>
+                <i class="fa fa-caret-down align-bottom ml-1 lh-12" aria-hidden="true"></i>
+              </p>
             </BaseButton>
           </li>
-          <li className="nav-item text-center lh-8">
+          <li className="nav-item nav-work text-center lh-16 pt-1">
             <BaseButton to="/" type="button" className="nav-url">
-              <i className="fa fa-home fa-2x" aria-hidden="true"></i>
-              <p className="mb-0"><small>Navitestes</small></p>
+              <i className="fa fa-th fa-lg" aria-hidden="true"></i>
+              <p className="mb-0">
+                <small>Work</small>
+                <i class="fa fa-caret-down align-bottom ml-1 lh-12" aria-hidden="true"></i>
+              </p>
             </BaseButton>
           </li>
-          <li className="nav-item text-center lh-8">
-            <BaseButton to="/" type="button" className="nav-url">
-              <i className="fa fa-home fa-2x" aria-hidden="true"></i>
-              <p className="mb-0"><small>Navitestes</small></p>
-            </BaseButton>
+          <li className="text-center lh-12 nav-premi">
+            <a href="/">Try Premium Free for 1 Month</a>
           </li>
         </ul>
       </nav>
