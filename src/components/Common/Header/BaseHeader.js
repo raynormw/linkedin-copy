@@ -2,15 +2,41 @@ import React, { Component } from 'react';
 
 import BaseButton from 'components/Common/BaseButton';
 import NavItem from 'components/Common/Header/NavItem';
+import ImageRounded from 'components/Common/ImageRounded';
 
 class BaseHeader extends Component {
   state = {
     items: [
-      { text: "Home", link: "/", className: "fa fa-home fa-lg", linkClass: "nav-url-active"},
-      { text: "My Network", link: "/", className: "fa fa-users fa-lg", linkClass: "nav-url"},
-      { text: "Jobs", link: "/", className: "fa fa-briefcase fa-lg", linkClass: "nav-url"},
-      { text: "Messaging", link: "/", className: "fa fa-comments-o fa-lg", linkClass: "nav-url"},
-      { text: "Notifications", link: "/", className: "fa fa-bell-o fa-lg", linkClass: "nav-url"},
+      {
+        text: "Home",
+        link: "/",
+        className: "fa fa-home fa-lg pt-1 pb-1",
+        linkClass: "nav-url-active"
+      },
+      {
+        text: "My Network",
+        link: "/",
+        className: "fa fa-users fa-lg pt-1 pb-1",
+        linkClass: "nav-url"
+      },
+      {
+        text: "Jobs",
+        link: "/",
+        className: "fa fa-briefcase fa-lg pt-1 pb-1",
+        linkClass: "nav-url"
+      },
+      {
+        text: "Messaging",
+        link: "/",
+        className: "fa fa-comments-o fa-lg pt-1 pb-1",
+        linkClass: "nav-url"
+      },
+      {
+        text: "Notifications",
+        link: "/",
+        className: "fa fa-bell-o fa-lg pt-1 pb-1",
+        linkClass: "nav-url"
+      },
     ]
   }
 
@@ -44,7 +70,12 @@ class BaseHeader extends Component {
           {items}
           <li className="nav-item text-center lh-16 pt-1">
             <BaseButton to="/profile" type="button" className="nav-url">
-              <i className="fa fa-circle fa-lg" aria-hidden="true"></i>
+              <ImageRounded
+                src="http://i.pravatar.cc/24"
+                alt="avatar-header"
+                width="24"
+                height="24"
+              />
               <p className="mb-0">
                 <small>Me</small>
                 <i class="fa fa-caret-down align-bottom ml-1 lh-12" aria-hidden="true"></i>
@@ -53,7 +84,7 @@ class BaseHeader extends Component {
           </li>
           <li className="nav-item nav-work text-center lh-16 pt-1">
             <BaseButton to="/" type="button" className="nav-url">
-              <i className="fa fa-th fa-lg" aria-hidden="true"></i>
+              <i className="fa fa-th fa-lg pt-1 pb-1" aria-hidden="true"></i>
               <p className="mb-0">
                 <small>Work</small>
                 <i class="fa fa-caret-down align-bottom ml-1 lh-12" aria-hidden="true"></i>

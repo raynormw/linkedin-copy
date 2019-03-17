@@ -22,12 +22,6 @@ class Homepage extends Component {
             Learn React
           </a>
           <ImageRounded
-            src="http://i.pravatar.cc/300"
-            alt="avatar"
-            width="300"
-            height="300"
-          />
-          <ImageRounded
             src="http://i.pravatar.cc/24"
             alt="avatar"
             width="24"
