@@ -10,7 +10,7 @@ class BaseHeader extends Component {
       { text: "My Network", link: "/", className: "fa fa-users fa-lg", linkClass: "nav-url"},
       { text: "Jobs", link: "/", className: "fa fa-briefcase fa-lg", linkClass: "nav-url"},
       { text: "Messaging", link: "/", className: "fa fa-comments-o fa-lg", linkClass: "nav-url"},
-      { text: "Notifications", link: "/", className: "fa fa-bell fa-lg", linkClass: "nav-url"},
+      { text: "Notifications", link: "/", className: "fa fa-bell-o fa-lg", linkClass: "nav-url"},
     ]
   }
 
@@ -61,7 +61,7 @@ class BaseHeader extends Component {
             </BaseButton>
           </li>
           <li className="text-center lh-12 nav-premi">
-            <a href="/">Try Premium Free for 1 Month</a>
+            <a href="/">Free Upgrade to Premium</a>
           </li>
         </ul>
       </nav>
