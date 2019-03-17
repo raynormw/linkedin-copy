@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import BaseHeader from 'components/Common/Header/BaseHeader';
 import BaseButton from 'components/Common/BaseButton';
+import ImageRounded from 'components/Common/ImageRounded';
 
 class Homepage extends Component {
   render() {
@@ -20,6 +21,18 @@ class Homepage extends Component {
           >
             Learn React
           </a>
+          <ImageRounded
+            src="http://i.pravatar.cc/300"
+            alt="avatar"
+            width="300"
+            height="300"
+          />
+          <ImageRounded
+            src="http://i.pravatar.cc/24"
+            alt="avatar"
+            width="24"
+            height="24"
+          />
           <br/>
           <BaseButton type="button" className="btn btn-primary">
             Primary
