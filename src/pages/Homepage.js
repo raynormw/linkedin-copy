@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import BaseHeader from 'components/Common/BaseHeader';
+import BaseHeader from 'components/Common/Header/BaseHeader';
 import BaseButton from 'components/Common/BaseButton';
 
 class Homepage extends Component {
