@@ -1,0 +1,7 @@
+$lineHeight: (8 8, 16 16, 32 32, 64 64);
+
+@each $var in $lineHeight {
+  .lh-#{nth($var, 1)} {
+    line-height: #{nth($var, 2)}px !important;
+  }
+}
