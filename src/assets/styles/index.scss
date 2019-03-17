@@ -1,5 +1,6 @@
 @import 'custom.scss';
 @import 'variable.scss';
+@import 'helper.scss';
 
 body {
   background-color: $bg-color;
@@ -7,7 +8,23 @@ body {
 
 .base-header {
   background-color: $header-bg;
-  color: #c7d1d8;
+
+  .nav-url {
+    color: #c7d1d8;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+    }
+
+    &-active {
+      color: white;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .base-content {
