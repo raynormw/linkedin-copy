@@ -50,23 +50,37 @@ class BaseFooter extends Component {
           </div>
           <div className="col">
             <div className="row">
-              <div className="col-md-8">
+              <div className="col-md-8 pr-0">
                 <div className="d-flex list-icon mb-4">
-                  <i class="fa fa-question-circle-o fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-question-circle-o fa-lg" aria-hidden="true"></i>
                   <div className="list-icon-text">
                     <p>Questions?</p>
                     <p className="text-muted fs-12 mb-0">Visit our Help Center.</p>
                   </div>
                 </div>
                 <div className="d-flex list-icon">
-                  <i class="fa fa-cog fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-cog fa-lg" aria-hidden="true"></i>
                   <div className="list-icon-text">
                     <p>Manage your account and privacy.</p>
                     <p className="text-muted fs-12 mb-0">Go to your Settings.</p>
                   </div>
                 </div>
               </div>
-              <div className="col"></div>
+              <div className="col p-0">
+                <p className="text-muted fs-14 mb-0">Select Language</p>
+                <div className="dropdown">
+                  <button
+                    className="btn btn-outline-primary dropdown-toggle rounded-0 fs-14"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    English (English)
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
