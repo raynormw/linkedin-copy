@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import BaseHeader from 'components/Common/Header/BaseHeader';
+import BaseFooter from 'components/Common/Footer/BaseFooter';
 import ProfileCard from 'components/Homepage/ProfileCard';
 import ShareCard from 'components/Homepage/ShareCard';
 import FeedCard from 'components/Homepage/FeedCard';
@@ -29,6 +30,7 @@ class Homepage extends Component {
             <RecommendCard />
           </div>
         </div>
+        <BaseFooter />
       </div>
     );
   }

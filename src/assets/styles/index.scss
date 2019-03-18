@@ -9,6 +9,11 @@ body {
 .base-header {
   background-color: $header-bg;
 
+  .icon-li {
+    padding: 0.05em 0.2em;
+    margin-right: 0.75em;
+  }
+
   .nav-item {
     width: 75px;
 
@@ -65,9 +70,29 @@ body {
   }
 }
 
-.icon-li {
-  padding: 0.05em 0.2em;
-  margin-right: 0.75em;
+.base-footer {
+  border-top: 1px solid $header-url;
+  padding: 1.5em 5em 0.5em;
+
+  .icon-footer {
+    background: $primary;
+    color: white;
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin-left: 2px;
+  }
+
+  .list-footer {
+    display: block;
+    font-size: 14px;
+    color: #485d69;
+    margin-bottom: 8px;
+
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+  }
 }
 
 .card {
