@@ -47,7 +47,21 @@ body {
 }
 
 .base-content {
-  margin: 4.5em;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6em 3.5em 3em 4.5em;
+
+  .column-1 {
+    width: 22%;
+  }
+
+  .column-2 {
+    width: 50%
+  }
+
+  .column-3 {
+    width: 28%
+  }
 }
 
 .icon-li {
