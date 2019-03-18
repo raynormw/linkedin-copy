@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Make sure you connected to the internet, because almost all image assets is in the cloud.
+Make sure you connected to the internet, because almost all image assets is in the cloud.<br>
 In the project directory, you can run:
 
 ### `npm start`
