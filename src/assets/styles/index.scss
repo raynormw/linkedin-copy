@@ -104,11 +104,16 @@ body {
 
 .sort-homepage {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 
   hr {
     flex-grow: 2;
     margin: 16px 4px;
   }
+}
+
+.dot-feed {
+  display: flex;
+  justify-content: flex-end;
 }
