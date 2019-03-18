@@ -4,6 +4,7 @@ import BaseHeader from 'components/Common/Header/BaseHeader';
 import ProfileCard from 'components/Homepage/ProfileCard';
 import ShareCard from 'components/Homepage/ShareCard';
 import FeedCard from 'components/Homepage/FeedCard';
+import RecommendCard from 'components/Homepage/RecommendCard';
 
 class Homepage extends Component {
   render() {
@@ -25,12 +26,7 @@ class Homepage extends Component {
             <FeedCard />
           </div>
           <div className="column-3">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
+            <RecommendCard />
           </div>
         </div>
       </div>
