@@ -15,6 +15,12 @@ class Homepage extends Component {
           </div>
           <div className="column-2 px-3">
             <ShareCard />
+            <div className="sort-homepage">
+              <hr/>
+              <span className="text-muted mr-1">Sort by:</span>
+              Top
+              <i className="fa fa-caret-down text-muted fa-lg ml-1" aria-hidden="true"></i>
+            </div>
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
