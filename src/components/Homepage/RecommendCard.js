@@ -1,18 +1,53 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const RecommendCard = () => {
-  return (
-    <div className="card rounded-0 shadow">
-      <div className="card-body p-2">
-        <div className="d-flex justify-content-between align-items-center">
-          <p className="fs-14 mb-0">
-            Add to your feed
-          </p>
-          <i className="fa fa-info-circle fa-lg" aria-hidden="true"></i>
+import ImageRounded from 'components/Common/ImageRounded';
+import BaseButton from 'components/Common/BaseButton';
+
+class RecommendCard extends Component {
+  state = {
+    
+  };
+
+  render() {
+    return (
+      <div className="card rounded-0 shadow">
+        <div className="card-body p-2">
+          <div className="d-flex justify-content-between align-items-center">
+            <p className="fs-14 mb-0 pl-1">
+              Add to your feed
+            </p>
+            <i className="fa fa-info-circle fa-lg" aria-hidden="true"></i>
+          </div>
+          <div className="row align-items-center my-2 pl-1">
+            <div className="col-md-3 pr-1">
+              <ImageRounded
+                className="rounded-circle"
+                src="http://i.pravatar.cc/48"
+                alt="avatar-feed"
+                width="48"
+                height="48"
+              />
+            </div>
+            <div className="col-md-5 p-0">
+              <p className="font-weight-bold mb-0">Max Levchin</p>
+              <p className="text-muted mb-0">Co-Founder & CEO at Affirm, Inc</p>
+            </div>
+            <div className="col-md-4 pl-1">
+              <BaseButton
+                to="/"
+                type="button"
+                className="btn btn-outline-dark rounded-0 py-1 fs-12"
+              >
+                <i className="fa fa-plus mr-2"></i>
+                Follow
+              </BaseButton>
+            </div>
+          </div>
+          <a href="/" className="pl-1">View all recommendations</a>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default RecommendCard;
