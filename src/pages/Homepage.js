@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import BaseHeader from 'components/Common/Header/BaseHeader';
 import BaseButton from 'components/Common/BaseButton';
 import ImageRounded from 'components/Common/ImageRounded';
+import ProfileCard from 'components/Homepage/ProfileCard';
 
 class Homepage extends Component {
   render() {
@@ -10,21 +11,12 @@ class Homepage extends Component {
       <div className="App">
         <BaseHeader />
         <div className="base-content">
-          <div className="column-1">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
+          <ProfileCard />
           <div className="column-2 px-3">
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>
@@ -33,7 +25,6 @@ class Homepage extends Component {
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
               </div>
             </div>
           </div>

@@ -49,7 +49,8 @@ body {
 .base-content {
   display: flex;
   flex-wrap: wrap;
-  margin: 6em 3.5em 3em 4.5em;
+  margin: 6.5em 4.5em 4em 5.5em;
+  font-size: 0.75rem;
 
   .column-1 {
     width: 22%;
@@ -67,4 +68,18 @@ body {
 .icon-li {
   padding: 0.05em 0.2em;
   margin-right: 0.75em;
+}
+
+.card {
+  .img-profile {
+    background-image: url("http://static.licdn.com/sc/h/3chad3rzxalsf65nuo7hxciac");
+    background-position: center;
+    background-size: 462px;
+    height: 54px;
+  }
+
+  .avatar-profile {
+    margin: -50px auto 12px;
+    border: 2px solid white;
+  }
 }

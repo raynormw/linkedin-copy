@@ -71,6 +71,7 @@ class BaseHeader extends Component {
           <li className="nav-item text-center lh-16 pt-1">
             <BaseButton to="/profile" type="button" className="nav-url">
               <ImageRounded
+                className="rounded-circle"
                 src="http://i.pravatar.cc/24"
                 alt="avatar-header"
                 width="24"
@@ -78,7 +79,7 @@ class BaseHeader extends Component {
               />
               <p className="mb-0">
                 <small>Me</small>
-                <i class="fa fa-caret-down align-bottom ml-1 lh-12" aria-hidden="true"></i>
+                <i className="fa fa-caret-down align-bottom ml-1 lh-12" aria-hidden="true"></i>
               </p>
             </BaseButton>
           </li>
@@ -87,7 +88,7 @@ class BaseHeader extends Component {
               <i className="fa fa-th fa-lg pt-1 pb-1" aria-hidden="true"></i>
               <p className="mb-0">
                 <small>Work</small>
-                <i class="fa fa-caret-down align-bottom ml-1 lh-12" aria-hidden="true"></i>
+                <i className="fa fa-caret-down align-bottom ml-1 lh-12" aria-hidden="true"></i>
               </p>
             </BaseButton>
           </li>

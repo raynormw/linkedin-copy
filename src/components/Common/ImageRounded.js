@@ -3,7 +3,7 @@ import React from 'react';
 const ImageRounded = (props) => {
   return (
     <img
-      className="rounded-circle"
+      className={props.className}
       src={props.src}
       alt={props.alt}
       width={props.width}
