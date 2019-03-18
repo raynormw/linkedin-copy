@@ -93,6 +93,22 @@ body {
       text-decoration: none;
     }
   }
+
+  .list-icon {
+    i {
+      color: $primary;
+    }
+
+    .list-icon-text {
+      color: #485d69;
+      font-size: 16px;
+      margin-left: 8px;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 .card {
