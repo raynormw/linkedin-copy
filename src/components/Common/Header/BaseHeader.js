@@ -62,7 +62,9 @@ class BaseHeader extends Component {
           <div className="input-group">
             <input type="text" className="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1" />
             <div className="input-group-prepend">
-              <button type="button" className="btn btn-outline-info">Primary</button>
+              <button type="button" className="btn btn-outline-info rounded-right">
+                <i className="fa fa-search" aria-hidden="true"></i>
+              </button>
             </div>
           </div>
         </form>
