@@ -32,6 +32,11 @@ class Homepage extends Component {
             Primary
           </BaseButton>
           <br/><br/>
+          <BaseButton type="button" className="btn btn-outline-primary rounded-pill">
+            <i className="fa fa-times mr-2"></i>
+            Rounded
+          </BaseButton>
+          <br/><br/>
           <button type="button" className="btn btn-warning rounded-0">
             <i className="fa fa-times"></i>
             Warning
@@ -72,3 +77,5 @@ class Homepage extends Component {
 }
 
 export default Homepage;
+
+//http://static.licdn.com/sc/h/3chad3rzxalsf65nuo7hxciac
