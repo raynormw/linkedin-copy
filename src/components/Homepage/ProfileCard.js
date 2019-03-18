@@ -22,14 +22,17 @@ const ProfileCard = () => {
         </div>
         <ul className="list-group list-group-flush">
           <li className="list-group-item px-2">
-            <p>80</p>
+            <p className="avatar-number mb-0">80</p>
             <p className="text-muted">Who's viewed your profile</p>
-            <p className="border-top">1,133</p>
-            <p className="text-muted">Connections</p>
-            <p>Manage your network</p>
+            <p className="avatar-number border-top pt-3 mb-0">1,133</p>
+            <p className="text-muted mb-0">Connections</p>
+            <p className="font-weight-bold mb-1">Manage your network</p>
           </li>
-          <li className="list-group-item px-2 text-muted">
-            Access exclusive tools & insights
+          <li className="list-group-item bg-light px-2">
+            <p className="text-muted mb-0">Access exclusive tools & insights</p>
+            <p className="font-weight-bold mb-0">
+              Free Upgrade to Premium
+            </p>
           </li>
         </ul>
       </div>
