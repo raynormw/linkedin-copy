@@ -15,7 +15,7 @@ class RecommendCard extends Component {
   render() {
     let lists = this.state.lists.map((list, index) => {
       return (
-        <div className="row align-items-center my-2 pl-1">
+        <div key={index} className="row align-items-center my-2 pl-1">
           <div className="col-md-3 pr-1">
             <ImageRounded
               className="rounded-circle"
