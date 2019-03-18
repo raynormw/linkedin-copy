@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import BaseHeader from 'components/Common/Header/BaseHeader';
+import BaseFooter from 'components/Common/Footer/BaseFooter';
 import BaseButton from 'components/Common/BaseButton';
 
 class Profile extends Component {
@@ -33,6 +34,7 @@ class Profile extends Component {
             Go to Home
           </BaseButton>
         </header>
+        <BaseFooter />
       </div>
     );
   }
