@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import BaseHeader from 'components/Common/Header/BaseHeader';
-import BaseButton from 'components/Common/BaseButton';
 import ProfileCard from 'components/Homepage/ProfileCard';
 import ShareCard from 'components/Homepage/ShareCard';
 
@@ -32,23 +31,9 @@ class Homepage extends Component {
             </div>
           </div>
         </div>
-        <div className="base-content">
-          <BaseButton type="button" className="btn btn-outline-primary rounded-pill">
-            <i className="fa fa-times mr-2"></i>
-            Rounded
-          </BaseButton>
-          <br/><br/>
-          <button type="button" className="btn btn-success">Success</button><br/><br/>
-          <BaseButton to="/profile" type="button" className="btn btn-outline-primary">
-            <i className="fa fa-times mr-2"></i>
-            Go to Profile
-          </BaseButton>
-        </div>
       </div>
     );
   }
 }
 
 export default Homepage;
-
-//http://static.licdn.com/sc/h/3chad3rzxalsf65nuo7hxciac
