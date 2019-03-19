@@ -6,6 +6,10 @@ body {
   background-color: $bg-color;
 }
 
+.w-75px {
+  width: 75px;
+}
+
 .base-header {
   background-color: $header-bg;
 
@@ -141,6 +145,18 @@ body {
     margin-top: 15px;
     margin-left: 8px;
   }
+
+  .img-section {
+    background-image: url("http://static.licdn.com/sc/h/3chad3rzxalsf65nuo7hxciac");
+    background-position: center;
+    background-size: 1100px;
+    height: 175px;
+  }
+
+  .avatar-section {
+    margin: -90px auto 12px;
+    border: 4px solid white;
+  }
 }
 
 .sort-homepage {
@@ -171,6 +187,14 @@ body {
 
 .related {
   .related-con {
+    &:before {
+      content: '\2022';
+    }
+  }
+}
+
+.profile-section {
+  .profile-con {
     &:before {
       content: '\2022';
     }

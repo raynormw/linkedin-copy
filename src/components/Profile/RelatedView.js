@@ -15,7 +15,7 @@ class RelatedView extends Component {
   render() {
     let lists = this.state.lists.map((list, index) => {
       return (
-        <div className="row mb-2">
+        <div className="row mb-2" key={index}>
           <div className="col-md-3">
             <ImageRounded
               className="rounded-circle"
